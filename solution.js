@@ -23,3 +23,14 @@ whoIsBiggest ('Mark',0.0002859375,'John',0.000672)
 
 //Bonus
 
+function whoIsBiggest2 (x,y,z,a,b,c) {
+    const bmi1 = calculateBMI(x,y,z);
+    const bmi2 = calculateBMI(a,b,c);
+
+    if(bmi1 > bmi2) {
+        console.log(x, "is bigger")
+    } else {
+        console.log(a, "is bigger")
+    }
+}
+whoIsBiggest2 ('Mark', 1.83, 80, 'John', 1.68, 50)
